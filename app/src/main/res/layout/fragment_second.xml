@@ -9,7 +9,7 @@
    >
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@id/toolbar"
+        android:id="@+id/toolbar2"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
@@ -39,9 +39,10 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/nomeView"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="NOME"
+                android:text=""
                 android:textSize="22dp" />
 
 
@@ -62,9 +63,10 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/idadeView"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="20"
+                android:text=""
                 android:textSize="22dp" />
 
 
@@ -85,9 +87,10 @@
                 android:textStyle="bold" />
 
             <TextView
+                android:id="@+id/enderecoView"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="UMUARAMA RUA X"
+                android:text=""
                 android:textSize="22dp" />
         </LinearLayout>
     </LinearLayout>
