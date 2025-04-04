@@ -22,16 +22,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nome:"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:text="@string/name_label"
+            android:textSize="18dp"
+            android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/nome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Insira seu Nome"
-                android:inputType="text" />
+                android:hint="@string/name_hint"
+            android:inputType="text" />
         </LinearLayout>
 
         <LinearLayout
@@ -45,16 +45,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Idade:"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:text="@string/age_label"
+            android:textSize="18dp"
+            android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/idade"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Insira sua Idade"
-                android:inputType="number" />
+                android:hint="@string/age_hint"
+            android:inputType="number" />
         </LinearLayout>
 
         <LinearLayout
@@ -68,16 +68,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Endereço:"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+                android:text="@string/address_label"
+            android:textSize="18dp"
+            android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/endereco"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Insira seu Endereço"
-                android:inputType="textCapSentences|textAutoCorrect" />
+                android:hint="@string/address_hint"
+            android:inputType="textCapSentences|textAutoCorrect" />
         </LinearLayout>
     </LinearLayout>
 
@@ -96,12 +96,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:padding="8dp"
-            android:text="Salvar"
-            android:textColor="@color/secondaryColor"
-            android:textSize="18dp"
-            app:cornerRadius="0dp"
+            android:text="@string/save_button"
+        android:textColor="@color/secondaryColor"
+        android:textSize="18dp"
+        app:cornerRadius="0dp"
 
-            />
+        />
     </LinearLayout>
 
 </RelativeLayout>

@@ -51,12 +51,14 @@ class SecondFragment : Fragment() {
 
         binding.botaoNao.setOnClickListener {
             sharedViewModel.clearFormData()
-            findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
+            findNavController().popBackStack()
         }
 
         // esse daqui eu tenho que usar quando quero toast em um fragmento
         binding.botaoSim.setOnClickListener {
             Toast.makeText(requireActivity(), "Cadastrado com Sucesso!", Toast.LENGTH_LONG).show()
+            sharedViewModel.clearFormData()
+            findNavController().popBackStack()
         }
     }
 

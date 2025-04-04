@@ -25,4 +25,14 @@
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
+
+    <fragment
+        android:id="@+id/AboutFragment"
+        android:name="com.example.projetokotlin.AboutFragment"
+        android:label="Sobre"
+        tools:layout="@layout/fragment_about" />
+
+    <action
+        android:id="@+id/action_FirstFragment_to_AboutFragment"
+        app:destination="@id/AboutFragment" />
 </navigation>

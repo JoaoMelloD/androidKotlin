@@ -1,24 +1,22 @@
 <resources>
     <string name="app_name">ProjetoKotlin</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">Inicio</string>
+    <string name="first_fragment_label">Home</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="desenvolvido_por">Desenvolvido por:</string>
+    <string name="desenvolvido_por">Developed by:</string>
     <string name="nome1">João Pedro de Mello Delgado</string>
     <string name="ra1">RA: 2463871</string>
     <string name="nome2">Gabriel Pio Machado</string>
     <string name="ra2">RA: 654321</string>
     <string name="nome3">Juliano Siqueira Barbosa</string>
     <string name="ra3">RA: 654321</string>
-    <string name="name_label">Nome:</string>
-    <string name="name_hint">Insira seu Nome</string>
-    <string name="age_label">Idade:</string>
-    <string name="age_hint">Insira sua Idade</string>
-        <string name="address_label">Endereço:</string>
-        <string name="address_hint">Insira seu Endereço</string>
-        <string name="save_button">Salvar</string>
-
+    <string name="name_label">Name:</string>
+    <string name="name_hint">Enter your Name</string>
+    <string name="age_label">Age:</string>
+    <string name="age_hint">Enter your Age</string>
+    <string name="address_label">Address:</string>
+    <string name="address_hint">Enter your Address</string>
+    <string name="save_button">Save</string>
 </resources>
